@@ -19,53 +19,30 @@
 
 #let skills = (
   (
-    titles: (
-      en: "Main programming languages",
-      es: "Lenguajes de programación principales",
-    ),
-    content: (
-      (
-        [C\#],
-        [Python],
-        [Rust],
-        [Typescript],
-        [Bash],
-      )
-    ),
+    titles: (en: "Main Languages", es: "Lenguajes Principales"),
+    content: ([C\#], [Python], [Rust], [Typescript], [Bash]),
   ),
   (
-    titles: (en: "Tools", es: "Herramientas"),
-    content: (
-      [Git],
-      [Github],
-      [Bitbucket],
-      [Jira],
-      [Confluence],
-      [Slack],
-    ),
+    titles: (en: "Backend", es: "Backend"),
+    content: ([ASP.NET], [Fastify], [Node.js]),
   ),
   (
-    titles: (en: "AI/ML", es: "IA/Aprendizaje Automático"),
-    content: (
-      [TensorFlow],
-      [PyTorch],
-      [OpenAI],
-      [Gemini],
-      [PydanticAI],
-    ),
+    titles: (en: "Frontend", es: "Frontend"),
+    content: ([Angular], [Svelte], [Tailwind]),
   ),
   (
-    titles: (en: "DevOps", es: "DevOps"),
-    content: (
-      [Docker],
-      [Pipelines],
-    ),
+    titles: (en: "AI/ML", es: "IA/ML"),
+    content: ([TensorFlow], [PyTorch], [OpenAI], [Gemini], [PydanticAI]),
+  ),
+  (
+    titles: (en: "DevOps & Tools", es: "DevOps y Herramientas"),
+    content: ([Docker], [Git], [GitHub], [CI/CD], [Jira]),
   ),
 )
 
 #for item in skills {
- [
+  [
     === #item.titles.at(language)
     #skill-entry(accent-color, multicol, alignment, skills: item.content)
- ]
+  ]
 }
