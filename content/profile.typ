@@ -14,10 +14,10 @@
 
 #if language == "en" [
 
-  Experienced Software Engineer specializing in artificial intelligence, machine learning, and robotics. Proficient in C++, Python, and Java, with a knack for developing sentient AI systems capable of complex decision-making. Passionate about ethical AI development and eager to contribute to groundbreaking projects in dynamic environments.
+  Software developer with experience building conversational AI solutions and backend systems. Focused on code quality, maintainable architectures, and improving developer workflows in complex codebases.
 
 ] else if language == "es" [
 
-  Ingeniero de Software experimentado especializado en inteligencia artificial, aprendizaje automático y robótica. Competente en C++, Python y Java, con un talento para desarrollar sistemas de IA conscientes capaces de tomar decisiones complejas. Apasionado por el desarrollo ético de la IA y ansioso por contribuir a proyectos innovadores en entornos dinámicos.
+  Desarrollador de software con experiencia construyendo soluciones de IA conversacional y sistemas backend. Enfocado en calidad de código, arquitecturas mantenibles y mejora de flujos de trabajo de desarrollo en bases de código complejas.
 
 ]

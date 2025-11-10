@@ -22,7 +22,7 @@ link = "https://github.com/CrisRPia"
 label = "github.com/CrisRPia"
 
 [personal.icon]
-address = "house"
+address = "home"
 telephone = "phone"
 email = "envelope"
 linkedin = "linkedin"
@@ -50,7 +50,7 @@ fill_color = "#f4f1eb"
 paper_size = "a4"
 accent_color = "#d4d2cc"
 # deafult value is 71%
-left_pane_width = "66%"
+left_pane_width = "75%"
 
 [layout.text]
 font = "HK Grotesk"

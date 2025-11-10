@@ -24,18 +24,7 @@
 
   - Integrated AI solutions into a banking conversational solution.
   - Developed and executed pipelines and guidelines to increase product quality and developer experience in a large legacy codebase.
-
-
-  #v(5pt)
-
-  #experience-entry(
-    title: [English Teacher],
-    date: [2021 - 2022],
-    company: [Self-Employed],
-    location: [Salto, Salto, Uruguay],
-  )
-
-  - Provided one-on-one English language instruction to Spanish-speaking students at levels ranging from A1 (beginner) to B2 (upper-intermediate), creating personalized lessons tailored to individual learning objectives.
+  - Enhanced the company's internal metrics system to meet flexible client-specific needs.
 
 ] else if language == "es" [
   #experience-entry(
@@ -47,15 +36,17 @@
 
   - Integración de soluciones de IA en una solución conversacional bancaria.
   - Desarrollo y ejecución de pipelines y directrices para aumentar la calidad del producto y la experiencia del desarrollador en una gran base de código heredado.
+  - Mejora del sistema de métricas interno de la empresa para satisfacer las necesidades específicas de cada cliente de forma flexible.
+]
 
-  #v(5pt)
+#v(5pt)
 
-  #experience-entry(
-    title: [Profesor de Inglés],
-    date: [2021 - 2022],
-    company: [Autónomo],
-    location: [Salto, Salto, Uruguay],
-  )
-
-  - Impartí clases particulares de inglés a estudiantes hispanohablantes de niveles desde A1 (principiante) hasta B2 (intermedio-alto), creando lecciones personalizadas y adaptadas a los objetivos de aprendizaje individuales.
+#text(style: "italic")[
+  #if language == "en" [
+    Notable public personal projects pinned at #underline(link("https://github.com/CrisRPia")[github.com/CrisRPia]). \
+    You may also #underline(link("https://web-hexsweeper.vercel.app/")[play my game]). Currently working on an enhanced Bevy WebAssembly version.
+  ] else if language == "es" [
+    Proyectos personales públicos destacados fijados en #underline(link("https://github.com/CrisRPia")[github.com/CrisRPia]). \
+    También puede #underline(link("https://web-hexsweeper.vercel.app/")[jugar mi juego]). Actualmente trabajando en una versión mejorada con Bevy WebAssembly.
+  ]
 ]
